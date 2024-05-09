@@ -1,7 +1,7 @@
 import PropTypes from 'prop-types';
 
 
-const Feature = ({feature}) => {
+const Feature = () => {
     return (
         <div>
             
@@ -10,7 +10,7 @@ const Feature = ({feature}) => {
 };
 
 Feature.PropTypes = {
-    feature: PropTypes.string
+    feature: PropTypes.object
 }
 
 export default Feature;
